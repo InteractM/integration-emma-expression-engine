@@ -15,3 +15,9 @@ After installation is complete, the extension can be configured in the Settings
 section by providing the Account ID, Public API Key, and Private API Key which 
 can be acquired from your Emma account by navigating to 
 "Account & Billing > Account Settings > API Key".
+
+USAGE
+
+To display simple subscribe form use tags below
+{exp:emma:subscribe}
+{/exp:emma:subscribe} 
