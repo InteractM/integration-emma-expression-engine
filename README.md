@@ -19,5 +19,6 @@ can be acquired from your Emma account by navigating to
 USAGE
 
 To display simple subscribe form use tags below
+
 {exp:emma:subscribe}
 {/exp:emma:subscribe} 
