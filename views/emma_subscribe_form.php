@@ -27,7 +27,8 @@
     echo $this->table->generate();
     #echo form_hidden('emma_member_id', $member_id, 'class="field"');
     
-    echo form_hidden('emma_subscribe', '1', 'class="field"')
+    	$data = array('emma_subscribe' => '1', 'XID' => '{XID_HASH}');
+     	echo form_hidden($data, 'class="field"');
 ?>
 	<?=form_submit(array('name' => 'submit', 'value' => lang('Submit')))?>
 <?=form_close()?>    
